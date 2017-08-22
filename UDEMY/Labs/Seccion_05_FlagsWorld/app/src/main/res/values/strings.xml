@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Seccion_05_FlagsWorld</string>
+
+    <!-- Menu options -->
+
+    <string name="menuOptionsAddCountry">Add country</string>
+    <string name="menuOptionsList">List</string>
+    <string name="menuOptionsGrid">Grid</string>
+
+    <!-- Menu context -->
+
+    <string name="menuContextDelete">Delete</string>
+</resources>

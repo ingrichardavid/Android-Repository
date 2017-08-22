@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyForm</string>
+
+    <!-- Initial activity -->
+
+    <string name="initialActivityPlaceHolderTxtName">Enter your name</string>
+    <string name="initialActivityBtnCancel">CANCEL</string>
+    <string name="initialActivityBtnOk">OK</string>
+
+    <!-- Second activity -->
+
+    <string name="secondActivityRadioBtnGreeting">Greeting</string>
+    <string name="secondActivityRadioBtnFarewell">Farewell</string>
+    <string name="secondActivityEditTxtAge">Age:</string>
+    <string name="secondActivityEditTxtAgeValue">18</string>
+
+    <!-- Third activity -->
+
+    <string name="thirdActivityBtnShare">SHARE</string>
+</resources>

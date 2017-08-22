@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuOptionsIdAdd"
+        android:icon="@mipmap/ic_add"
+        android:orderInCategory="0"
+        android:title="@string/menuOptionsAddCountry"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuOptionsIdList"
+        android:icon="@mipmap/ic_list"
+        android:orderInCategory="1"
+        android:title="@string/menuOptionsList"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menuOptionsIdGrid"
+        android:icon="@mipmap/ic_grid"
+        android:orderInCategory="2"
+        android:title="@string/menuOptionsGrid"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyForm</string>
+
+    <!-- Main Activity !-->
+
+    <string name="txtVTitle">Hellow world!</string>
+    <string name="btnGoToActivityTwo">Activity Two</string>
+    <string name="btnGoToActivityThree">Activity Three</string>
+
+    <!-- Second Activity !-->
+
+    <!-- Third Activity !-->
+
+    <string name="activityThirdImgBtnPhone">activityThirdImgBtnPhone</string>
+    <string name="activityThirdImgBtnWeb">activityThirdImgBtnWeb</string>
+    <string name="activityThirdImgBtnCamera">activityThirdImgBtnCamera</string>
+    <string name="activityThirdImgBtnContacts">activityThirdImgBtnContacts</string>
+    <string name="activityThirdImgBtnSendEmailFast">activityThirdImgBtnSendEmailFast</string>
+    <string name="activityThirdImgBtnSendEmailComplete">activityThirdImgBtnSendEmailComplete</string>
+    <string name="activityThirdImgBtnQuickCall">activityThirdImgBtnQuickCall</string>
+</resources>

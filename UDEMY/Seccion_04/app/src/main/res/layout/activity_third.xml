@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ing_richardavid.seccion_1.ThirdActivity">
+
+    <EditText
+        android:id="@+id/activityThirdEditTxtPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/activityThirdImgBtnPhone"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/activityThirdImgBtnPhone"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/activityThirdImgBtnPhone"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/activityThirdImgBtnPhone"
+        app:layout_constraintBottom_toBottomOf="@+id/activityThirdEditTxtPhone"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/activityThirdEditTxtPhone"
+        app:layout_constraintVertical_bias="0.6"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <EditText
+        android:id="@+id/activityThirdEditTxtWeb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/activityThirdImgBtnWeb"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/activityThirdImgBtnWeb"
+        app:layout_constraintTop_toBottomOf="@+id/activityThirdEditTxtPhone" />
+
+    <ImageButton
+        android:id="@+id/activityThirdImgBtnWeb"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/activityThirdImgBtnWeb"
+        app:layout_constraintBottom_toBottomOf="@+id/activityThirdEditTxtWeb"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/activityThirdImgBtnPhone"
+        app:layout_constraintRight_toRightOf="@+id/activityThirdImgBtnPhone"
+        app:layout_constraintTop_toTopOf="@+id/activityThirdEditTxtWeb"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/ic_menu_view" />
+
+    <EditText
+        android:id="@+id/activityThirdEditTxtContacts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/activityThirdImgBtnContacts"
+        app:layout_constraintTop_toBottomOf="@+id/activityThirdEditTxtWeb" />
+
+    <ImageButton
+        android:id="@+id/activityThirdImgBtnContacts"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/activityThirdImgBtnContacts"
+        app:layout_constraintBottom_toBottomOf="@+id/activityThirdEditTxtContacts"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/activityThirdImgBtnWeb"
+        app:layout_constraintRight_toRightOf="@+id/activityThirdImgBtnWeb"
+        app:layout_constraintTop_toTopOf="@+id/activityThirdEditTxtContacts"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/ic_menu_agenda" />
+
+    <ImageButton
+        android:id="@+id/activityThirdImgBtnSendEmailFast"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/activityThirdImgBtnSendEmailFast"
+        app:layout_constraintBottom_toBottomOf="@+id/activityThirdEditTxtSendEmailFast"
+        app:layout_constraintLeft_toLeftOf="@+id/activityThirdImgBtnContacts"
+        app:layout_constraintRight_toRightOf="@+id/activityThirdImgBtnContacts"
+        app:layout_constraintTop_toTopOf="@+id/activityThirdEditTxtSendEmailFast"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@android:drawable/ic_menu_send"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <EditText
+        android:id="@+id/activityThirdEditTxtSendEmailFast"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/activityThirdImgBtnSendEmailFast"
+        app:layout_constraintTop_toBottomOf="@+id/activityThirdEditTxtContacts" />
+
+    <EditText
+        android:id="@+id/activityThirdEditTxtSendEmailComplete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textWebEmailAddress"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityThirdEditTxtSendEmailFast"
+        app:layout_constraintRight_toLeftOf="@+id/activityThirdImgBtnSendEmailComplete"
+        android:layout_marginRight="8dp" />
+
+    <ImageButton
+        android:id="@+id/activityThirdImgBtnSendEmailComplete"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/activityThirdImgBtnSendEmailComplete"
+        app:layout_constraintBottom_toBottomOf="@+id/activityThirdEditTxtSendEmailComplete"
+        app:layout_constraintLeft_toLeftOf="@+id/activityThirdImgBtnSendEmailFast"
+        app:layout_constraintRight_toRightOf="@+id/activityThirdImgBtnSendEmailFast"
+        app:layout_constraintTop_toTopOf="@+id/activityThirdEditTxtSendEmailComplete"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@android:drawable/sym_action_email" />
+
+    <ImageButton
+        android:id="@+id/activityThirdImgBtnCamera"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="@color/colorAccent"
+        android:contentDescription="@string/activityThirdImgBtnCamera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    <ImageButton
+        android:id="@+id/activityThirdImgBtnQuickCall"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/activityThirdImgBtnQuickCall"
+        app:srcCompat="@android:drawable/sym_call_outgoing"
+        app:layout_constraintTop_toTopOf="@+id/activityThirdEditTxtQuickCall"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/activityThirdEditTxtQuickCall"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.333"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activityThirdImgBtnSendEmailComplete"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/activityThirdImgBtnSendEmailComplete" />
+
+    <EditText
+        android:id="@+id/activityThirdEditTxtQuickCall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/activityThirdImgBtnQuickCall"
+        app:layout_constraintTop_toBottomOf="@+id/activityThirdEditTxtSendEmailComplete" />
+
+</android.support.constraint.ConstraintLayout>

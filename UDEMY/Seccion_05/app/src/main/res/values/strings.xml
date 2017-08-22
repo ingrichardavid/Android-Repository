@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ListView</string>
+
+    <!-- Activity ListView -->
+
+    <string name="activityLVTxtVPlaceHolderName">Enter a name</string>
+    <string name="activityLVBtnAdd">Add</string>
+    <string name="activityLVBtnGoToLVPersonalized">ListView Personalized</string>
+
+    <!-- Activity ListView personalized -->
+
+    <string name="activityLVPersonalizedPlaceHolderName">Enter a name</string>
+    <string name="activityLVPersonalizedBtnAdd">Add</string>
+    <string name="activityLVPersonalizedBtnGoToGVPersonalized">GridView Personalized</string>
+
+    <!-- Activity GridView personalized -->
+
+    <string name="activityGVPersonalizedPlaceHolderName">Enter a name</string>
+    <string name="activityGVPersonalizedBtnAdd">Add</string>
+    <string name="activityGVPersonalizedBtnGoToDynamicGV">Dynamic GridView</string>
+
+    <!-- Menu action add -->
+
+    <string name="menuActionAddItem">Add Item</string>
+
+    <!-- Menu context -->
+
+    <string name="menuContextDeleteItem">Delete</string>
+</resources>
