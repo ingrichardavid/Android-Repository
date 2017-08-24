@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Seccion_06</string>
+
+    <!-- Menu options -->
+
+    <string name="menuOptionsAdd">Add item</string>
+
+    <!-- Activity CardView -->
+
+    <string name="activityCVBtnCV">CardView</string>
+    <string name="activityCVBtnGoToRVAndCV">RecyclerView and CardView</string>
+</resources>
