@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Seccion_06_Movies</string>
+
+    <!-- Menu options -->
+
+    <string name="menuOptionsBtnAddItem">Add item</string>
+
+    <!-- Menu context -->
+
+    <string name="menuContextItemDelete">Delete</string>
+    <string name="menuContextItemReset">Reset quantity</string>
+</resources>
