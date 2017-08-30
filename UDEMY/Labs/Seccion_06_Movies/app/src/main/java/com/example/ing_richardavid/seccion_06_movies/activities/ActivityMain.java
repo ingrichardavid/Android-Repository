@@ -33,7 +33,6 @@ public class ActivityMain extends AppCompatActivity implements OnItemClickListen
     private RecyclerView rvListMovies;
     private RecyclerView.Adapter rvAListMovies;
     private RecyclerView.LayoutManager rvLListMovies;
-    private MenuInflater menuInflater;
 
     /**
      * Functions: AppCompatActivity.

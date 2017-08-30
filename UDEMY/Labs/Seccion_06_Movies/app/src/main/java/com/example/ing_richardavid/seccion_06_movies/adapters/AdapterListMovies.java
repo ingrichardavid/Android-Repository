@@ -65,6 +65,10 @@ public class AdapterListMovies extends RecyclerView.Adapter<ViewHolderListMovies
         return this.listMovies.size();
     }
 
+    /**
+     * Functions: Self.
+     */
+
     public void deleteMovie(int position) {
         this.listMovies.remove(position);
     }
