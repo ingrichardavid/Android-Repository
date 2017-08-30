@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuOptionsIdUpdate"
+        android:icon="@mipmap/ic_update_customer"
+        app:showAsAction="ifRoom"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/menuOptionIdRestart"
+        android:icon="@mipmap/ic_delete"
+        app:showAsAction="ifRoom"
+        tools:ignore="MenuTitle" />
+</menu>

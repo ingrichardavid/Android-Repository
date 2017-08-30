@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Seccion_07_SQLite</string>
+
+    <!-- ActivityMain -->
+
+    <string name="activityMainBtnAdd">Add</string>
+    <string name="activityMainTxtVDniPlaceHolder">Enter DNI</string>
+    <string name="activityMainTxtVNamePlaceHolder">Enter name</string>
+
+    <!-- Layout customer list -->
+
+    <string name="layoutCustomerListTxtVDate">Creation date: </string>
+
+    <!-- Menu context -->
+
+    <string name="menuContextDelete">Delete</string>
+</resources>
