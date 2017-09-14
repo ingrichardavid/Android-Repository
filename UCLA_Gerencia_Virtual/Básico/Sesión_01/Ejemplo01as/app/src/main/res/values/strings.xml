@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ejemplo01as</string>
+    <string name="activity_main_txt_title">¡Hola! Está es mi primera aplicación en Android.</string>
+</resources>
