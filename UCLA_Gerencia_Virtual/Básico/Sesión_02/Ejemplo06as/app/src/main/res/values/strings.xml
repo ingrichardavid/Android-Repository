@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ejemplo06as</string>
+
+    <!-- Activity -->
+
+    <string name="btnInicio">Inicio</string>
+    <string name="btnAcceso">Acceso</string>
+    <string name="btnContacto">Contacto</string>
+
+    <!-- Menu item -->
+
+    <string name="menuSettings">Opciones</string>
+    <string name="itemInicio">Inicio</string>
+    <string name="itemAcceso">Acceso</string>
+    <string name="itemContacto">Contacto</string>
+    <string name="itemSalir">Salir</string>
+
+</resources>
