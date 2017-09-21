@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ejemplo15as</string>
+    <string name="itemCrearUsuario">Crear Usuario</string>
+    <string name="itemActualizarUsuario">Actualizar Usuario</string>
+    <string name="itemRemoverUsuario">Remover Usuario</string>
+    <string name="itemListarUsuarios">Listar Usuarios</string>
+    <string name="txtVUsuario">Usuario:</string>
+    <string name="txtVClave">Clave:</string>
+    <string name="rBtnNivel1">Nivel 1</string>
+    <string name="rBtnNivel2">Nivel 2</string>
+    <string name="rBtnNivel3">Nivel 3</string>
+</resources>
