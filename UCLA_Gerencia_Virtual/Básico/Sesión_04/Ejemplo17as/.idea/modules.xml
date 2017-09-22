@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ejemplo15as.iml" filepath="$PROJECT_DIR$/Ejemplo15as.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejemplo17as.iml" filepath="$PROJECT_DIR$/Ejemplo17as.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kxml2-2.3.0/kxml2-2.3.0.iml" filepath="$PROJECT_DIR$/kxml2-2.3.0/kxml2-2.3.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc/rpc.iml" filepath="$PROJECT_DIR$/rpc/rpc.iml" />
     </modules>
   </component>
 </project>
