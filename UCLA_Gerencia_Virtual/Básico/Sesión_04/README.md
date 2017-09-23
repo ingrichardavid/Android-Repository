@@ -8,3 +8,4 @@
 **4.- Ejemplo15as:** Creación de archivo xml, creación de formulario y opciones de menú para agregar, actualizar y eliminar datos de forma dinámica.  
 **5.- Ejemplo16as:** Integración de la librería rpc.jar para manejar archivos JSON. Creación del archivo JSON usuarios.json.  
 **6.- Ejemplo17as:** Creación de formulario, implementación de ScrollView y funciones para crear, modificar, eliminar y listar datos almacenados en archivos JSON.  
+**Ejercicio Evaluado:** Creación de actividad personalizada haciendo uso de botones, menú de opciones, cajas de texto y botones. Creación de archivo JSON con los datos de usuario admin/admin como prueba, mediante el uso de la opción de menú GENERAR y validación de los mismos mediante un formulario.  

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EjercicioEvaluado</string>
+
+    <!-- Main Activity -->
+
+    <string name="titleViewInicio">UCLA-DCyT:::Inicio</string>
+    <string name="titleViewAcceso">UCLA-DCyT:::Acceso</string>
+    <string name="btnInicio">Inicio</string>
+    <string name="btnAcceso">Acceso</string>
+    <string name="btnContacto">Contacto</string>
+
+    <!-- Menu Inicio -->
+
+    <string name="itemOpciones">Opciones</string>
+    <string name="itemInicio">Inicio</string>
+    <string name="itemAcceso">Acceso</string>
+    <string name="itemContacto">Contacto</string>
+    <string name="itemSalir">Salir</string>
+
+    <!-- Menu Acceso -->
+
+    <string name="itemGenerar">Generar</string>
+    <string name="txtVUsuario">Usuario:</string>
+    <string name="txtVClave">Clave:</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="btnLimpiar">Limpiar</string>
+    <string name="btnSalir">Salir</string>
+</resources>

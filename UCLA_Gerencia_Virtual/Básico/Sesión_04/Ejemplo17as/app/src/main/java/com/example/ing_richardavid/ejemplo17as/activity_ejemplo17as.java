@@ -255,8 +255,6 @@ public class activity_ejemplo17as extends AppCompatActivity implements View.OnCl
             } catch (Exception e) {
                 Log.e("JSONException", e.getMessage());
             }
-        } else {
-
         }
     }
 
